@@ -10,11 +10,14 @@ div {
     align-items:center;
 }
 
-header {
+.heading {
     background-color:var(--green) ;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
     background-color: var(--dirtywhite);
+    display:flex;
 }
 
