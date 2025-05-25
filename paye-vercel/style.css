@@ -1,18 +1,32 @@
-:root{
-    --green: #386966;
-    --lime: #8D9C87;
-    --olive:#40602F;
-    --dirtywhite: #D7DAD1;
+:root {
+  --green: #386966;
+  --lime: #8D9C87;
+  --olive: #40602F;
+  --dirtywhite: #D7DAD1;
 }
 
+/* Apply flex only when required */
 div {
-    display:flex;
-    align-items:center;
+  display: flex;
+  align-items: center;
 }
 
 .heading {
-    background-color:var(--green) ;
-    display: flex;
-    flex-direction: column;
+  background-color: var(--green);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
+body {
+  background-color: var(--dirtywhite);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
