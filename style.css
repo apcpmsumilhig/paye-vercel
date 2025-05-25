@@ -10,6 +10,11 @@ div {
     align-items:center;
 }
 
-.heading {
+header {
     background-color:var(--green) ;
 }
+
+body {
+    background-color: var(--dirtywhite);
+}
+
