@@ -20,7 +20,7 @@ div {
 }
 
 body {
-  background-color: var(--dirtywhite);
+  background-color: var(--green);
   margin: 0;
   font-family: Arial, sans-serif;
   display: flex;
